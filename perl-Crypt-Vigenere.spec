@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Crypt
-%define		pnam	Vigenere
+%define	pdir	Crypt
+%define	pnam	Vigenere
 Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
 Summary(pl):	Modu³ Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
