@@ -9,7 +9,7 @@ Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
 Summary(pl):	Modu³ Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
 Version:	0.07
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
