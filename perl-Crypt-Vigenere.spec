@@ -30,7 +30,7 @@ kilkaset lat temu przez francuskiego kryptografa, Blaise de Vigenere.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
