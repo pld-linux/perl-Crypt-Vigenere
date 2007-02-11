@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Vigenere
 Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
-Summary(pl):	Modu≥ Perla Crypt::Vigenere - implementacja szyfru Vigenere
+Summary(pl.UTF-8):   Modu≈Ç Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
 Version:	0.07
 Release:	3
@@ -22,11 +22,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This modules allows you to recreate the workings of the cryptographic
 cipher invented several hundred years ago by a French cryptographer,
-Blaise de VigenËre.
+Blaise de Vigen√®re.
 
-%description -l pl
-Ten modu≥ pozwala na odtworzenie prac zwi±zanych z szyfrem wymy∂lonym
-kilkaset lat temu przez francuskiego kryptografa, Blaise de Vigenere.
+%description -l pl.UTF-8
+Ten modu≈Ç pozwala na odtworzenie prac zwiƒÖzanych z szyfrem wymy≈õlonym
+kilkaset lat temu przez francuskiego kryptografa, Blaise de Vigen√®re.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
