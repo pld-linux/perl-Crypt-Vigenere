@@ -22,6 +22,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This modules allows you to recreate the workings of the cryptographic
 cipher invented several hundred years ago by a French cryptographer,
+Blaise de Vigenere.
+
+%description -l en.UTF-8
+This modules allows you to recreate the workings of the cryptographic
+cipher invented several hundred years ago by a French cryptographer,
 Blaise de Vigenère.
 
 %description -l pl.UTF-8
