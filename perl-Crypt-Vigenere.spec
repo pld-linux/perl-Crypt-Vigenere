@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Vigenere
 Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
-Summary(pl.UTF-8):   Moduł Perla Crypt::Vigenere - implementacja szyfru Vigenere
+Summary(pl.UTF-8):	Moduł Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
 Version:	0.07
 Release:	3
