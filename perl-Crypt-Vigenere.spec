@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Crypt
 %define		pnam	Vigenere
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
 Summary(pl.UTF-8):	Moduł Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7fb92b19c5022e446ae1a51322e5d061
+URL:		http://search.cpan.org/dist/Crypt-Vigenere/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
