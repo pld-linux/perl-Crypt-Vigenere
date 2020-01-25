@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	Vigenere
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Vigenere Perl module - Vigenere cipher implementation
 Summary(pl.UTF-8):	Moduł Perla Crypt::Vigenere - implementacja szyfru Vigenere
 Name:		perl-Crypt-Vigenere
